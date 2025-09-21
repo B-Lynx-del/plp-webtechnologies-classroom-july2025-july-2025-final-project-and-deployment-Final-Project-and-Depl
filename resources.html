@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | MoodMirror</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+
+    <header>
+        <h1>Emotional Wellness Resources</h1>
+        <p>Curated tools and support to help you feel seen, safe, and supported.</p>
+    </header>
+
+    <main>
+        <!-- Interactive Filter -->
+        <section>
+            <label for="resourceType">Filter by type:</label>
+            <select id="resourceType" onchange="filterResources()">
+                <option value="all">All</option>
+                <option value="therapy">Therapy Platforms</option>
+                <option value="crisis">Emergency Support</option>
+                <option value="selfcare">Self-Care Tools</option>
+            </select>
+        </section>
+
+        <!-- Resource Cards -->
+        <section id="resourceList" class="grid"></section>
+
+        <!-- Suggest a Resource -->
+        <section>
+            <h3>Suggest a Resource</h3>
+            <input type="text" id="suggestionInput" placeholder="Share a helpful link or tool..." />
+            <button onclick="submitSuggestion()">Submit</button>
+            <ul id="suggestionList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footerQuote"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

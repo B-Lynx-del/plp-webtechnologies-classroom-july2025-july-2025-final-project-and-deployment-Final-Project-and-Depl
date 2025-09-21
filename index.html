@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodMirror | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="resources.html">Resources</a>
+  </nav>
+
+  <header>
+    <h1>MoodMirror</h1>
+    <p>Reflect. Feel. Heal.</p>
+    <p class="hero-message">
+      Healing begins with being seen. Wherever you are, whoever you are—your feelings matter here.
+    </p>
+    </div>
+    <div class="quote-strip">
+      <p id="rotatingQuote"></p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2>Welcome to MoodMirror</h2>
+      <p>
+        Your personal space to check in with your feelings, reflect on your day, and nurture your mental well-being.
+      </p>
+      <button onclick="scrollToMood()">Start Your Check-In</button>
+    </section>
+
+    <section class="mood-selector">
+      <label for="mood">How are you feeling today?</label>
+      <select id="mood">
+        <option value="">--Choose--</option>
+        <option value="happy">😊 Happy</option>
+        <option value="okay">😐 Okay</option>
+        <option value="sad">😢 Sad</option>
+        <option value="anxious">😟 Anxious</option>
+        <option value="overwhelmed">😩 Overwhelmed</option>
+      </select>
+      <button onclick="checkMood()">Reflect</button>
+    </section>
+
+    <section id="response" class="response hidden"></section>
+
+    <section id="affirmation" class="affirmation"></section>
+
+    <section class="featured-affirmation">
+      <h3>Affirmation of the Day</h3>
+      <p id="dailyAffirmation"></p>
+    </section>
+
+    <section class="breathing">
+      <button onclick="startBreathing()">Need a moment to breathe?</button>
+      <div id="breathCircle" class="circle hidden"></div>
+    </section>
+
+    <section class="sound-toggle">
+      <button onclick="toggleSound()">Play Nature Sounds 🌿</button>
+    </section>
+
+    <section class="journal">
+      <h2>Your Mood Journal</h2>
+      <ul id="journalEntries"></ul>
+    </section>
+
+    <section class="ubuntu-spotlight">
+      <h3>
+        Ubuntu Philosophy
+      </h3>
+      <p id="ubuntuQuote"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footerQuote"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
