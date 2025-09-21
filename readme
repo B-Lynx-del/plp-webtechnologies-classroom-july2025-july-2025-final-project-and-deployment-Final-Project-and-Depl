@@ -1,0 +1,37 @@
+# MoodMirror 🌿
+
+**MoodMirror** is a gentle, interactive web platform designed to support emotional wellness through reflection, affirmation, and culturally rooted care. Built with Ubuntu philosophy and Kenyan wisdom in mind, it offers users a quiet space to check in with their feelings, access mental health resources, and reconnect with their humanity.
+
+---
+
+## 🌍 Live Site
+
+Visit the live site here: [https://your-username.github.io/MoodMirror](https://your-username.github.io/MoodMirror)
+
+---
+
+## ✨ Features
+
+- 🌗 Light/Dark mode toggle for comfort and accessibility
+- 🧠 Mood check-in with dynamic emotional feedback
+- 🌿 Breathing animation for calming focus
+- 💬 Rotating affirmations and Ubuntu-inspired quotes
+- 📖 Mood journal stored locally for personal reflection
+- 🔊 Nature sound toggle for ambient support
+- 📚 Resources page with therapy platforms, crisis contacts, and self-care tools
+- 📬 Contact form with validation and kind word submission
+- 🎨 Responsive design with professional polish
+
+---
+
+## 🧱 Tech Stack
+
+- **HTML5** – Semantic structure and accessibility
+- **CSS3** – Responsive design, animations, light/dark theming
+- **JavaScript** – Interactivity, local storage, dynamic content
+- **GitHub Pages** – Free hosting and deployment
+
+---
+
+## 📁 Folder Structure
+
